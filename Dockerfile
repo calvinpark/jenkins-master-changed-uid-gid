@@ -1,6 +1,6 @@
 ARG JENKINS_VERSION=2.119
 
-FROM jenkins/jenkins:${JENKINS_VERSION}-alpine
+FROM jenkins/jenkins:${JENKINS_VERSION}
 LABEL maintainer="Calvin Park <calvinspark@gmail.com>"
 
 # Skip install wizard & give it 10 GB memory
