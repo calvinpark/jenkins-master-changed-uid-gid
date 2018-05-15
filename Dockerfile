@@ -1,4 +1,4 @@
-ARG JENKINS_VERSION=2.119
+ARG JENKINS_VERSION=2.122
 
 FROM jenkins/jenkins:${JENKINS_VERSION}-alpine
 LABEL maintainer="Calvin Park <calvinspark@gmail.com>"
